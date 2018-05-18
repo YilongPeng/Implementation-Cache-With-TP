@@ -7,6 +7,6 @@ class Index extends Controller
 {
     public function index()
     {
-        echo  'tp51';
+        return $this->fetch();
     }
 }
